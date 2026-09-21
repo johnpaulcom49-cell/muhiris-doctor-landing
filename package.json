@@ -1,6 +1,22 @@
 {
+  "name": "muhiris-doctor",
+  "version": "1.0.0",
+  "description": "Muhiris Doctor landing page",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css",
+    "start": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
+    "flowbite": "^4.0.2",
+    "preline": "^4.2.0",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "daisyui": "^5.7.37"
   }
 }
