@@ -1,4 +1,4 @@
 {
   "outputDirectory": "src",
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build && mkdir -p src/public && cp -r public/* src/public/"
 }
