@@ -1,4 +1,4 @@
 {
-  "outputDirectory": ".",
+  "outputDirectory": "src",
   "buildCommand": "npm run build"
 }
